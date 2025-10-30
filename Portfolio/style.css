@@ -1,0 +1,102 @@
+/* Reset default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+/* Header section */
+header {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Profile picture styling */
+.profile-pic {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* circular shape */
+  margin: 1rem auto; /* center */
+  object-fit: cover; /* crop nicely */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Experience and Projects formatting */
+.exp-item, .project-item {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.date {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact section */
+#contact {
+  text-align: center;
+  background-color: #f0f4ff;
+  padding: 3rem 1rem;
+  margin-top: 2rem;
+  border-top: 2px solid #0073e6;
+}
+
+.email {
+  font-weight: bold;
+  color: #0073e6;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
